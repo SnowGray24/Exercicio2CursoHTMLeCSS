@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+div {
+    border-radius: 4px;
+    background-color: #111;
+    width: 90%;
+    padding: 30px;
+}
+div:nth-child(3){
+    margin-top: 2em;
+}
+
+p {
+    color: #b2b2b2;
+}
+
+span{
+    color: #febe01;
+}
+
+h2{
+    color: white;
+    margin: 0px;
+}
+
+button {
+    color: #332200;
+    border: none;
+    background-color: #febe01;
+    padding: .5em;
+    width: 150px;
+    font-family: 'Arial';
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
